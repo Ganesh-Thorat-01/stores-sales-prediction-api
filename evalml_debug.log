@@ -1,0 +1,516 @@
+08/21/2021 10:47:33 AM - INFO - automl_search.py: Using default limit of max_batches=1.
+
+08/21/2021 10:47:33 AM - INFO - automl_search.py: Generating pipelines to search over...
+08/21/2021 10:47:35 AM - DEBUG - gen_utils.py: Could not import class ProphetRegressor in get_importable_subclasses
+08/21/2021 10:47:35 AM - DEBUG - gen_utils.py: Could not import class ProphetRegressor in get_importable_subclasses
+08/21/2021 10:47:35 AM - DEBUG - gen_utils.py: Could not import class ProphetRegressor in get_importable_subclasses
+08/21/2021 10:47:35 AM - DEBUG - automl_search.py: allowed_estimators set to ['Decision Tree Regressor', 'Extra Trees Regressor', 'XGBoost Regressor', 'CatBoost Regressor', 'Random Forest Regressor', 'LightGBM Regressor', 'Linear Regressor', 'Elastic Net Regressor']
+08/21/2021 10:47:35 AM - DEBUG - gen_utils.py: Could not import class ProphetRegressor in get_importable_subclasses
+08/21/2021 10:47:35 AM - DEBUG - gen_utils.py: Could not import class ProphetRegressor in get_importable_subclasses
+08/21/2021 10:47:35 AM - DEBUG - gen_utils.py: Could not import class ProphetRegressor in get_importable_subclasses
+08/21/2021 10:47:35 AM - DEBUG - gen_utils.py: Could not import class ProphetRegressor in get_importable_subclasses
+08/21/2021 10:47:35 AM - DEBUG - gen_utils.py: Could not import class ProphetRegressor in get_importable_subclasses
+08/21/2021 10:47:35 AM - DEBUG - gen_utils.py: Could not import class ProphetRegressor in get_importable_subclasses
+08/21/2021 10:47:35 AM - DEBUG - gen_utils.py: Could not import class ProphetRegressor in get_importable_subclasses
+08/21/2021 10:47:35 AM - DEBUG - gen_utils.py: Could not import class ProphetRegressor in get_importable_subclasses
+08/21/2021 10:47:35 AM - DEBUG - gen_utils.py: Could not import class ProphetRegressor in get_importable_subclasses
+08/21/2021 10:47:35 AM - DEBUG - gen_utils.py: Could not import class ProphetRegressor in get_importable_subclasses
+08/21/2021 10:47:35 AM - DEBUG - gen_utils.py: Could not import class ProphetRegressor in get_importable_subclasses
+08/21/2021 10:47:35 AM - DEBUG - gen_utils.py: Could not import class ProphetRegressor in get_importable_subclasses
+08/21/2021 10:47:35 AM - DEBUG - gen_utils.py: Could not import class ProphetRegressor in get_importable_subclasses
+08/21/2021 10:47:35 AM - DEBUG - gen_utils.py: Could not import class ProphetRegressor in get_importable_subclasses
+08/21/2021 10:47:35 AM - DEBUG - gen_utils.py: Could not import class ProphetRegressor in get_importable_subclasses
+08/21/2021 10:47:35 AM - DEBUG - gen_utils.py: Could not import class ProphetRegressor in get_importable_subclasses
+08/21/2021 10:47:35 AM - DEBUG - gen_utils.py: Could not import class ProphetRegressor in get_importable_subclasses
+08/21/2021 10:47:35 AM - DEBUG - gen_utils.py: Could not import class ProphetRegressor in get_importable_subclasses
+08/21/2021 10:47:35 AM - DEBUG - gen_utils.py: Could not import class ProphetRegressor in get_importable_subclasses
+08/21/2021 10:47:35 AM - DEBUG - gen_utils.py: Could not import class ProphetRegressor in get_importable_subclasses
+08/21/2021 10:47:35 AM - DEBUG - gen_utils.py: Could not import class ProphetRegressor in get_importable_subclasses
+08/21/2021 10:47:35 AM - DEBUG - gen_utils.py: Could not import class ProphetRegressor in get_importable_subclasses
+08/21/2021 10:47:35 AM - DEBUG - gen_utils.py: Could not import class ProphetRegressor in get_importable_subclasses
+08/21/2021 10:47:35 AM - DEBUG - gen_utils.py: Could not import class ProphetRegressor in get_importable_subclasses
+08/21/2021 10:47:35 AM - INFO - automl_search.py: 8 pipelines ready for search.
+08/21/2021 10:47:35 AM - DEBUG - automl_search.py: allowed_pipelines set to ['Decision Tree Regressor w/ Log Transformer + Imputer', 'Extra Trees Regressor w/ Log Transformer + Imputer', 'XGBoost Regressor w/ Log Transformer + Imputer', 'CatBoost Regressor w/ Log Transformer + Imputer', 'Random Forest Regressor w/ Log Transformer + Imputer', 'LightGBM Regressor w/ Log Transformer + Imputer', 'Linear Regressor w/ Log Transformer + Imputer + Standard Scaler', 'Elastic Net Regressor w/ Log Transformer + Imputer + Standard Scaler']
+08/21/2021 10:47:35 AM - DEBUG - automl_search.py: allowed_model_families set to [ModelFamily.EXTRA_TREES, ModelFamily.DECISION_TREE, ModelFamily.CATBOOST, ModelFamily.LINEAR_MODEL, ModelFamily.RANDOM_FOREST, ModelFamily.LIGHTGBM, ModelFamily.XGBOOST]
+08/21/2021 10:47:35 AM - INFO - logger.py: 
+*****************************
+08/21/2021 10:47:35 AM - INFO - logger.py: * Beginning pipeline search *
+08/21/2021 10:47:35 AM - INFO - logger.py: *****************************
+08/21/2021 10:47:35 AM - INFO - logger.py: 
+08/21/2021 10:47:35 AM - INFO - automl_search.py: Optimizing for Root Mean Squared Error. 
+08/21/2021 10:47:35 AM - INFO - automl_search.py: Lower score is better.
+
+08/21/2021 10:47:35 AM - INFO - automl_search.py: Using SequentialEngine to train and score pipelines.
+08/21/2021 10:47:35 AM - INFO - automl_search.py: Searching up to 1 batches for a total of 9 pipelines. 
+08/21/2021 10:47:35 AM - INFO - automl_search.py: Allowed model families: extra_trees, decision_tree, catboost, linear_model, random_forest, lightgbm, xgboost
+
+08/21/2021 10:47:35 AM - DEBUG - gen_utils.py: Could not import class ProphetRegressor in get_importable_subclasses
+08/21/2021 10:47:36 AM - DEBUG - gen_utils.py: Could not import class ProphetRegressor in get_importable_subclasses
+08/21/2021 10:47:36 AM - INFO - automl_search.py: Evaluating Baseline Pipeline: Mean Baseline Regression Pipeline
+08/21/2021 10:47:36 AM - INFO - engine_base.py: Mean Baseline Regression Pipeline:
+08/21/2021 10:47:36 AM - INFO - engine_base.py: 	Starting cross validation
+08/21/2021 10:47:36 AM - DEBUG - engine_base.py: 		Training and scoring on fold 0
+08/21/2021 10:47:36 AM - DEBUG - engine_base.py: 			Fold 0: starting training
+08/21/2021 10:47:36 AM - DEBUG - engine_base.py: 			Fold 0: finished training
+08/21/2021 10:47:36 AM - DEBUG - engine_base.py: 			Fold 0: Scoring trained pipeline
+08/21/2021 10:47:36 AM - DEBUG - engine_base.py: 			Fold 0: Root Mean Squared Error score: 1730.821
+08/21/2021 10:47:36 AM - DEBUG - engine_base.py: 		Training and scoring on fold 1
+08/21/2021 10:47:36 AM - DEBUG - engine_base.py: 			Fold 1: starting training
+08/21/2021 10:47:36 AM - DEBUG - engine_base.py: 			Fold 1: finished training
+08/21/2021 10:47:36 AM - DEBUG - engine_base.py: 			Fold 1: Scoring trained pipeline
+08/21/2021 10:47:36 AM - DEBUG - engine_base.py: 			Fold 1: Root Mean Squared Error score: 1698.187
+08/21/2021 10:47:36 AM - DEBUG - engine_base.py: 		Training and scoring on fold 2
+08/21/2021 10:47:36 AM - DEBUG - engine_base.py: 			Fold 2: starting training
+08/21/2021 10:47:36 AM - DEBUG - engine_base.py: 			Fold 2: finished training
+08/21/2021 10:47:36 AM - DEBUG - engine_base.py: 			Fold 2: Scoring trained pipeline
+08/21/2021 10:47:36 AM - DEBUG - engine_base.py: 			Fold 2: Root Mean Squared Error score: 1690.564
+08/21/2021 10:47:36 AM - INFO - engine_base.py: 	Finished cross validation - mean Root Mean Squared Error: 1706.524
+08/21/2021 10:47:36 AM - INFO - logger.py: 
+*****************************
+08/21/2021 10:47:36 AM - INFO - logger.py: * Evaluating Batch Number 1 *
+08/21/2021 10:47:36 AM - INFO - logger.py: *****************************
+08/21/2021 10:47:36 AM - INFO - logger.py: 
+08/21/2021 10:47:38 AM - INFO - engine_base.py: Linear Regressor w/ Log Transformer + Imputer + Standard Scaler:
+08/21/2021 10:47:38 AM - INFO - engine_base.py: 	Starting cross validation
+08/21/2021 10:47:38 AM - DEBUG - engine_base.py: 		Training and scoring on fold 0
+08/21/2021 10:47:38 AM - DEBUG - engine_base.py: 			Fold 0: starting training
+08/21/2021 10:47:38 AM - DEBUG - engine_base.py: 			Fold 0: finished training
+08/21/2021 10:47:38 AM - DEBUG - engine_base.py: 			Fold 0: Scoring trained pipeline
+08/21/2021 10:47:38 AM - DEBUG - engine_base.py: 			Fold 0: Root Mean Squared Error score: 1148.635
+08/21/2021 10:47:38 AM - DEBUG - engine_base.py: 		Training and scoring on fold 1
+08/21/2021 10:47:38 AM - DEBUG - engine_base.py: 			Fold 1: starting training
+08/21/2021 10:47:38 AM - DEBUG - engine_base.py: 			Fold 1: finished training
+08/21/2021 10:47:38 AM - DEBUG - engine_base.py: 			Fold 1: Scoring trained pipeline
+08/21/2021 10:47:38 AM - DEBUG - engine_base.py: 			Fold 1: Root Mean Squared Error score: 1172.434
+08/21/2021 10:47:38 AM - DEBUG - engine_base.py: 		Training and scoring on fold 2
+08/21/2021 10:47:38 AM - DEBUG - engine_base.py: 			Fold 2: starting training
+08/21/2021 10:47:38 AM - DEBUG - engine_base.py: 			Fold 2: finished training
+08/21/2021 10:47:38 AM - DEBUG - engine_base.py: 			Fold 2: Scoring trained pipeline
+08/21/2021 10:47:38 AM - DEBUG - engine_base.py: 			Fold 2: Root Mean Squared Error score: 1104.860
+08/21/2021 10:47:38 AM - INFO - engine_base.py: 	Finished cross validation - mean Root Mean Squared Error: 1141.976
+08/21/2021 10:47:40 AM - INFO - engine_base.py: Decision Tree Regressor w/ Log Transformer + Imputer:
+08/21/2021 10:47:40 AM - INFO - engine_base.py: 	Starting cross validation
+08/21/2021 10:47:40 AM - DEBUG - engine_base.py: 		Training and scoring on fold 0
+08/21/2021 10:47:40 AM - DEBUG - engine_base.py: 			Fold 0: starting training
+08/21/2021 10:47:40 AM - DEBUG - engine_base.py: 			Fold 0: finished training
+08/21/2021 10:47:40 AM - DEBUG - engine_base.py: 			Fold 0: Scoring trained pipeline
+08/21/2021 10:47:40 AM - DEBUG - engine_base.py: 			Fold 0: Root Mean Squared Error score: 1157.710
+08/21/2021 10:47:40 AM - DEBUG - engine_base.py: 		Training and scoring on fold 1
+08/21/2021 10:47:40 AM - DEBUG - engine_base.py: 			Fold 1: starting training
+08/21/2021 10:47:40 AM - DEBUG - engine_base.py: 			Fold 1: finished training
+08/21/2021 10:47:40 AM - DEBUG - engine_base.py: 			Fold 1: Scoring trained pipeline
+08/21/2021 10:47:40 AM - DEBUG - engine_base.py: 			Fold 1: Root Mean Squared Error score: 1132.664
+08/21/2021 10:47:40 AM - DEBUG - engine_base.py: 		Training and scoring on fold 2
+08/21/2021 10:47:40 AM - DEBUG - engine_base.py: 			Fold 2: starting training
+08/21/2021 10:47:40 AM - DEBUG - engine_base.py: 			Fold 2: finished training
+08/21/2021 10:47:40 AM - DEBUG - engine_base.py: 			Fold 2: Scoring trained pipeline
+08/21/2021 10:47:40 AM - DEBUG - engine_base.py: 			Fold 2: Root Mean Squared Error score: 1107.595
+08/21/2021 10:47:40 AM - INFO - engine_base.py: 	Finished cross validation - mean Root Mean Squared Error: 1132.656
+08/21/2021 10:47:42 AM - INFO - engine_base.py: Random Forest Regressor w/ Log Transformer + Imputer:
+08/21/2021 10:47:42 AM - INFO - engine_base.py: 	Starting cross validation
+08/21/2021 10:47:42 AM - DEBUG - engine_base.py: 		Training and scoring on fold 0
+08/21/2021 10:47:42 AM - DEBUG - engine_base.py: 			Fold 0: starting training
+08/21/2021 10:47:42 AM - DEBUG - engine_base.py: 			Fold 0: finished training
+08/21/2021 10:47:42 AM - DEBUG - engine_base.py: 			Fold 0: Scoring trained pipeline
+08/21/2021 10:47:42 AM - DEBUG - engine_base.py: 			Fold 0: Root Mean Squared Error score: 1140.188
+08/21/2021 10:47:42 AM - DEBUG - engine_base.py: 		Training and scoring on fold 1
+08/21/2021 10:47:42 AM - DEBUG - engine_base.py: 			Fold 1: starting training
+08/21/2021 10:47:42 AM - DEBUG - engine_base.py: 			Fold 1: finished training
+08/21/2021 10:47:42 AM - DEBUG - engine_base.py: 			Fold 1: Scoring trained pipeline
+08/21/2021 10:47:42 AM - DEBUG - engine_base.py: 			Fold 1: Root Mean Squared Error score: 1124.219
+08/21/2021 10:47:42 AM - DEBUG - engine_base.py: 		Training and scoring on fold 2
+08/21/2021 10:47:42 AM - DEBUG - engine_base.py: 			Fold 2: starting training
+08/21/2021 10:47:42 AM - DEBUG - engine_base.py: 			Fold 2: finished training
+08/21/2021 10:47:42 AM - DEBUG - engine_base.py: 			Fold 2: Scoring trained pipeline
+08/21/2021 10:47:42 AM - DEBUG - engine_base.py: 			Fold 2: Root Mean Squared Error score: 1094.331
+08/21/2021 10:47:42 AM - INFO - engine_base.py: 	Finished cross validation - mean Root Mean Squared Error: 1119.579
+08/21/2021 10:47:44 AM - INFO - engine_base.py: LightGBM Regressor w/ Log Transformer + Imputer:
+08/21/2021 10:47:44 AM - INFO - engine_base.py: 	Starting cross validation
+08/21/2021 10:47:44 AM - DEBUG - engine_base.py: 		Training and scoring on fold 0
+08/21/2021 10:47:44 AM - DEBUG - engine_base.py: 			Fold 0: starting training
+08/21/2021 10:47:44 AM - DEBUG - engine_base.py: 			Fold 0: finished training
+08/21/2021 10:47:44 AM - DEBUG - engine_base.py: 			Fold 0: Scoring trained pipeline
+08/21/2021 10:47:44 AM - DEBUG - engine_base.py: 			Fold 0: Root Mean Squared Error score: 1198.178
+08/21/2021 10:47:44 AM - DEBUG - engine_base.py: 		Training and scoring on fold 1
+08/21/2021 10:47:44 AM - DEBUG - engine_base.py: 			Fold 1: starting training
+08/21/2021 10:47:44 AM - DEBUG - engine_base.py: 			Fold 1: finished training
+08/21/2021 10:47:44 AM - DEBUG - engine_base.py: 			Fold 1: Scoring trained pipeline
+08/21/2021 10:47:44 AM - DEBUG - engine_base.py: 			Fold 1: Root Mean Squared Error score: 1174.240
+08/21/2021 10:47:44 AM - DEBUG - engine_base.py: 		Training and scoring on fold 2
+08/21/2021 10:47:44 AM - DEBUG - engine_base.py: 			Fold 2: starting training
+08/21/2021 10:47:44 AM - DEBUG - engine_base.py: 			Fold 2: finished training
+08/21/2021 10:47:44 AM - DEBUG - engine_base.py: 			Fold 2: Scoring trained pipeline
+08/21/2021 10:47:44 AM - DEBUG - engine_base.py: 			Fold 2: Root Mean Squared Error score: 1148.182
+08/21/2021 10:47:44 AM - INFO - engine_base.py: 	Finished cross validation - mean Root Mean Squared Error: 1173.533
+08/21/2021 10:47:46 AM - INFO - engine_base.py: Elastic Net Regressor w/ Log Transformer + Imputer + Standard Scaler:
+08/21/2021 10:47:46 AM - INFO - engine_base.py: 	Starting cross validation
+08/21/2021 10:47:46 AM - DEBUG - engine_base.py: 		Training and scoring on fold 0
+08/21/2021 10:47:46 AM - DEBUG - engine_base.py: 			Fold 0: starting training
+08/21/2021 10:47:46 AM - DEBUG - engine_base.py: 			Fold 0: finished training
+08/21/2021 10:47:46 AM - DEBUG - engine_base.py: 			Fold 0: Scoring trained pipeline
+08/21/2021 10:47:46 AM - DEBUG - engine_base.py: 			Fold 0: Root Mean Squared Error score: 1148.628
+08/21/2021 10:47:46 AM - DEBUG - engine_base.py: 		Training and scoring on fold 1
+08/21/2021 10:47:46 AM - DEBUG - engine_base.py: 			Fold 1: starting training
+08/21/2021 10:47:46 AM - DEBUG - engine_base.py: 			Fold 1: finished training
+08/21/2021 10:47:46 AM - DEBUG - engine_base.py: 			Fold 1: Scoring trained pipeline
+08/21/2021 10:47:46 AM - DEBUG - engine_base.py: 			Fold 1: Root Mean Squared Error score: 1172.478
+08/21/2021 10:47:46 AM - DEBUG - engine_base.py: 		Training and scoring on fold 2
+08/21/2021 10:47:46 AM - DEBUG - engine_base.py: 			Fold 2: starting training
+08/21/2021 10:47:46 AM - DEBUG - engine_base.py: 			Fold 2: finished training
+08/21/2021 10:47:46 AM - DEBUG - engine_base.py: 			Fold 2: Scoring trained pipeline
+08/21/2021 10:47:46 AM - DEBUG - engine_base.py: 			Fold 2: Root Mean Squared Error score: 1104.663
+08/21/2021 10:47:46 AM - INFO - engine_base.py: 	Finished cross validation - mean Root Mean Squared Error: 1141.923
+08/21/2021 10:47:49 AM - INFO - engine_base.py: XGBoost Regressor w/ Log Transformer + Imputer:
+08/21/2021 10:47:49 AM - INFO - engine_base.py: 	Starting cross validation
+08/21/2021 10:47:49 AM - DEBUG - engine_base.py: 		Training and scoring on fold 0
+08/21/2021 10:47:49 AM - DEBUG - engine_base.py: 			Fold 0: starting training
+08/21/2021 10:47:49 AM - DEBUG - engine_base.py: 			Fold 0: finished training
+08/21/2021 10:47:49 AM - DEBUG - engine_base.py: 			Fold 0: Scoring trained pipeline
+08/21/2021 10:47:49 AM - DEBUG - engine_base.py: 			Fold 0: Root Mean Squared Error score: 1156.059
+08/21/2021 10:47:49 AM - DEBUG - engine_base.py: 		Training and scoring on fold 1
+08/21/2021 10:47:49 AM - DEBUG - engine_base.py: 			Fold 1: starting training
+08/21/2021 10:47:49 AM - DEBUG - engine_base.py: 			Fold 1: finished training
+08/21/2021 10:47:49 AM - DEBUG - engine_base.py: 			Fold 1: Scoring trained pipeline
+08/21/2021 10:47:49 AM - DEBUG - engine_base.py: 			Fold 1: Root Mean Squared Error score: 1145.836
+08/21/2021 10:47:49 AM - DEBUG - engine_base.py: 		Training and scoring on fold 2
+08/21/2021 10:47:49 AM - DEBUG - engine_base.py: 			Fold 2: starting training
+08/21/2021 10:47:49 AM - DEBUG - engine_base.py: 			Fold 2: finished training
+08/21/2021 10:47:49 AM - DEBUG - engine_base.py: 			Fold 2: Scoring trained pipeline
+08/21/2021 10:47:49 AM - DEBUG - engine_base.py: 			Fold 2: Root Mean Squared Error score: 1103.272
+08/21/2021 10:47:49 AM - INFO - engine_base.py: 	Finished cross validation - mean Root Mean Squared Error: 1135.056
+08/21/2021 10:47:52 AM - INFO - engine_base.py: Extra Trees Regressor w/ Log Transformer + Imputer:
+08/21/2021 10:47:52 AM - INFO - engine_base.py: 	Starting cross validation
+08/21/2021 10:47:52 AM - DEBUG - engine_base.py: 		Training and scoring on fold 0
+08/21/2021 10:47:52 AM - DEBUG - engine_base.py: 			Fold 0: starting training
+08/21/2021 10:47:52 AM - DEBUG - engine_base.py: 			Fold 0: finished training
+08/21/2021 10:47:52 AM - DEBUG - engine_base.py: 			Fold 0: Scoring trained pipeline
+08/21/2021 10:47:52 AM - DEBUG - engine_base.py: 			Fold 0: Root Mean Squared Error score: 1137.199
+08/21/2021 10:47:52 AM - DEBUG - engine_base.py: 		Training and scoring on fold 1
+08/21/2021 10:47:52 AM - DEBUG - engine_base.py: 			Fold 1: starting training
+08/21/2021 10:47:52 AM - DEBUG - engine_base.py: 			Fold 1: finished training
+08/21/2021 10:47:52 AM - DEBUG - engine_base.py: 			Fold 1: Scoring trained pipeline
+08/21/2021 10:47:52 AM - DEBUG - engine_base.py: 			Fold 1: Root Mean Squared Error score: 1129.291
+08/21/2021 10:47:52 AM - DEBUG - engine_base.py: 		Training and scoring on fold 2
+08/21/2021 10:47:52 AM - DEBUG - engine_base.py: 			Fold 2: starting training
+08/21/2021 10:47:52 AM - DEBUG - engine_base.py: 			Fold 2: finished training
+08/21/2021 10:47:52 AM - DEBUG - engine_base.py: 			Fold 2: Scoring trained pipeline
+08/21/2021 10:47:52 AM - DEBUG - engine_base.py: 			Fold 2: Root Mean Squared Error score: 1096.891
+08/21/2021 10:47:52 AM - INFO - engine_base.py: 	Finished cross validation - mean Root Mean Squared Error: 1121.127
+08/21/2021 10:47:54 AM - INFO - engine_base.py: CatBoost Regressor w/ Log Transformer + Imputer:
+08/21/2021 10:47:54 AM - INFO - engine_base.py: 	Starting cross validation
+08/21/2021 10:47:54 AM - DEBUG - engine_base.py: 		Training and scoring on fold 0
+08/21/2021 10:47:54 AM - DEBUG - engine_base.py: 			Fold 0: starting training
+08/21/2021 10:47:54 AM - DEBUG - engine_base.py: 			Fold 0: finished training
+08/21/2021 10:47:54 AM - DEBUG - engine_base.py: 			Fold 0: Scoring trained pipeline
+08/21/2021 10:47:54 AM - DEBUG - engine_base.py: 			Fold 0: Root Mean Squared Error score: 1692.389
+08/21/2021 10:47:54 AM - DEBUG - engine_base.py: 		Training and scoring on fold 1
+08/21/2021 10:47:54 AM - DEBUG - engine_base.py: 			Fold 1: starting training
+08/21/2021 10:47:54 AM - DEBUG - engine_base.py: 			Fold 1: finished training
+08/21/2021 10:47:54 AM - DEBUG - engine_base.py: 			Fold 1: Scoring trained pipeline
+08/21/2021 10:47:54 AM - DEBUG - engine_base.py: 			Fold 1: Root Mean Squared Error score: 1660.363
+08/21/2021 10:47:54 AM - DEBUG - engine_base.py: 		Training and scoring on fold 2
+08/21/2021 10:47:54 AM - DEBUG - engine_base.py: 			Fold 2: starting training
+08/21/2021 10:47:54 AM - DEBUG - engine_base.py: 			Fold 2: finished training
+08/21/2021 10:47:54 AM - DEBUG - engine_base.py: 			Fold 2: Scoring trained pipeline
+08/21/2021 10:47:54 AM - DEBUG - engine_base.py: 			Fold 2: Root Mean Squared Error score: 1627.323
+08/21/2021 10:47:54 AM - INFO - engine_base.py: 	Finished cross validation - mean Root Mean Squared Error: 1660.025
+08/21/2021 10:47:54 AM - INFO - automl_search.py: 
+Search finished after 00:18            
+08/21/2021 10:47:55 AM - INFO - automl_search.py: Best pipeline: Random Forest Regressor w/ Log Transformer + Imputer
+08/21/2021 10:47:55 AM - INFO - automl_search.py: Best pipeline Root Mean Squared Error: 1119.579109
+08/21/2021 10:47:56 AM - DEBUG - gen_utils.py: Could not import class ProphetRegressor in get_importable_subclasses
+08/21/2021 10:47:56 AM - DEBUG - gen_utils.py: Could not import class ProphetRegressor in get_importable_subclasses
+08/21/2021 10:47:56 AM - DEBUG - gen_utils.py: Could not import class ProphetRegressor in get_importable_subclasses
+08/21/2021 10:47:56 AM - INFO - logger.py: 
+********************************************************
+08/21/2021 10:47:56 AM - INFO - logger.py: * Random Forest Regressor w/ Log Transformer + Imputer *
+08/21/2021 10:47:56 AM - INFO - logger.py: ********************************************************
+08/21/2021 10:47:56 AM - INFO - logger.py: 
+08/21/2021 10:47:56 AM - INFO - pipeline_base.py: Problem Type: regression
+08/21/2021 10:47:56 AM - INFO - pipeline_base.py: Model Family: Random Forest
+08/21/2021 10:47:56 AM - INFO - logger.py: 
+08/21/2021 10:47:56 AM - INFO - logger.py: Pipeline Steps
+08/21/2021 10:47:56 AM - INFO - logger.py: ==============
+08/21/2021 10:47:56 AM - INFO - component_graph.py: 1. Log Transformer
+08/21/2021 10:47:56 AM - INFO - component_graph.py: 2. Imputer
+08/21/2021 10:47:56 AM - INFO - component_base.py: 	 * categorical_impute_strategy : most_frequent
+08/21/2021 10:47:56 AM - INFO - component_base.py: 	 * numeric_impute_strategy : mean
+08/21/2021 10:47:56 AM - INFO - component_base.py: 	 * categorical_fill_value : None
+08/21/2021 10:47:56 AM - INFO - component_base.py: 	 * numeric_fill_value : None
+08/21/2021 10:47:56 AM - INFO - component_graph.py: 3. Random Forest Regressor
+08/21/2021 10:47:56 AM - INFO - component_base.py: 	 * n_estimators : 100
+08/21/2021 10:47:56 AM - INFO - component_base.py: 	 * max_depth : 6
+08/21/2021 10:47:56 AM - INFO - component_base.py: 	 * n_jobs : -1
+08/21/2021 10:47:56 AM - INFO - logger.py: 
+08/21/2021 10:47:56 AM - INFO - logger.py: Training
+08/21/2021 10:47:56 AM - INFO - logger.py: ========
+08/21/2021 10:47:56 AM - INFO - automl_search.py: Training for regression problems.
+08/21/2021 10:47:56 AM - INFO - automl_search.py: Total training time (including CV): 2.7 seconds
+08/21/2021 10:47:56 AM - INFO - logger.py: 
+08/21/2021 10:47:56 AM - INFO - logger.py: Cross Validation
+08/21/2021 10:47:56 AM - INFO - logger.py: ----------------
+08/21/2021 10:47:56 AM - INFO - automl_search.py:              Root Mean Squared Error  ExpVariance  MaxError  MedianAE         MSE     MAE    R2 # Training # Validation
+0                           1140.188        0.588  6663.757   502.765 1300027.575 785.671 0.566      5,682        2,841
+1                           1124.219        0.580  6372.073   486.311 1263867.327 771.269 0.562      5,682        2,841
+2                           1094.331        0.595  7787.435   480.250 1197560.930 748.992 0.581      5,682        2,841
+mean                        1119.579        0.588  6941.088   489.776 1253818.610 768.644 0.569          -            -
+std                           23.278        0.007   747.326    11.650   51967.161  18.480 0.010          -            -
+coef of var                    0.021        0.013     0.108     0.024       0.041   0.024 0.017          -            -
+08/21/2021 11:08:25 AM - INFO - automl_search.py: Using default limit of max_batches=1.
+
+08/21/2021 11:08:26 AM - INFO - automl_search.py: Generating pipelines to search over...
+08/21/2021 11:08:27 AM - DEBUG - gen_utils.py: Could not import class ProphetRegressor in get_importable_subclasses
+08/21/2021 11:08:28 AM - DEBUG - gen_utils.py: Could not import class ProphetRegressor in get_importable_subclasses
+08/21/2021 11:08:28 AM - DEBUG - gen_utils.py: Could not import class ProphetRegressor in get_importable_subclasses
+08/21/2021 11:08:28 AM - DEBUG - automl_search.py: allowed_estimators set to ['Decision Tree Regressor', 'Extra Trees Regressor', 'XGBoost Regressor', 'CatBoost Regressor', 'Random Forest Regressor', 'LightGBM Regressor', 'Linear Regressor', 'Elastic Net Regressor']
+08/21/2021 11:08:28 AM - DEBUG - gen_utils.py: Could not import class ProphetRegressor in get_importable_subclasses
+08/21/2021 11:08:28 AM - DEBUG - gen_utils.py: Could not import class ProphetRegressor in get_importable_subclasses
+08/21/2021 11:08:28 AM - DEBUG - gen_utils.py: Could not import class ProphetRegressor in get_importable_subclasses
+08/21/2021 11:08:28 AM - DEBUG - gen_utils.py: Could not import class ProphetRegressor in get_importable_subclasses
+08/21/2021 11:08:28 AM - DEBUG - gen_utils.py: Could not import class ProphetRegressor in get_importable_subclasses
+08/21/2021 11:08:28 AM - DEBUG - gen_utils.py: Could not import class ProphetRegressor in get_importable_subclasses
+08/21/2021 11:08:28 AM - DEBUG - gen_utils.py: Could not import class ProphetRegressor in get_importable_subclasses
+08/21/2021 11:08:28 AM - DEBUG - gen_utils.py: Could not import class ProphetRegressor in get_importable_subclasses
+08/21/2021 11:08:28 AM - DEBUG - gen_utils.py: Could not import class ProphetRegressor in get_importable_subclasses
+08/21/2021 11:08:28 AM - DEBUG - gen_utils.py: Could not import class ProphetRegressor in get_importable_subclasses
+08/21/2021 11:08:28 AM - DEBUG - gen_utils.py: Could not import class ProphetRegressor in get_importable_subclasses
+08/21/2021 11:08:28 AM - DEBUG - gen_utils.py: Could not import class ProphetRegressor in get_importable_subclasses
+08/21/2021 11:08:28 AM - DEBUG - gen_utils.py: Could not import class ProphetRegressor in get_importable_subclasses
+08/21/2021 11:08:28 AM - DEBUG - gen_utils.py: Could not import class ProphetRegressor in get_importable_subclasses
+08/21/2021 11:08:28 AM - DEBUG - gen_utils.py: Could not import class ProphetRegressor in get_importable_subclasses
+08/21/2021 11:08:28 AM - DEBUG - gen_utils.py: Could not import class ProphetRegressor in get_importable_subclasses
+08/21/2021 11:08:28 AM - DEBUG - gen_utils.py: Could not import class ProphetRegressor in get_importable_subclasses
+08/21/2021 11:08:28 AM - DEBUG - gen_utils.py: Could not import class ProphetRegressor in get_importable_subclasses
+08/21/2021 11:08:28 AM - DEBUG - gen_utils.py: Could not import class ProphetRegressor in get_importable_subclasses
+08/21/2021 11:08:28 AM - DEBUG - gen_utils.py: Could not import class ProphetRegressor in get_importable_subclasses
+08/21/2021 11:08:28 AM - DEBUG - gen_utils.py: Could not import class ProphetRegressor in get_importable_subclasses
+08/21/2021 11:08:28 AM - DEBUG - gen_utils.py: Could not import class ProphetRegressor in get_importable_subclasses
+08/21/2021 11:08:28 AM - DEBUG - gen_utils.py: Could not import class ProphetRegressor in get_importable_subclasses
+08/21/2021 11:08:28 AM - DEBUG - gen_utils.py: Could not import class ProphetRegressor in get_importable_subclasses
+08/21/2021 11:08:28 AM - INFO - automl_search.py: 8 pipelines ready for search.
+08/21/2021 11:08:28 AM - DEBUG - automl_search.py: allowed_pipelines set to ['Decision Tree Regressor w/ Log Transformer + Imputer', 'Extra Trees Regressor w/ Log Transformer + Imputer', 'XGBoost Regressor w/ Log Transformer + Imputer', 'CatBoost Regressor w/ Log Transformer + Imputer', 'Random Forest Regressor w/ Log Transformer + Imputer', 'LightGBM Regressor w/ Log Transformer + Imputer', 'Linear Regressor w/ Log Transformer + Imputer + Standard Scaler', 'Elastic Net Regressor w/ Log Transformer + Imputer + Standard Scaler']
+08/21/2021 11:08:28 AM - DEBUG - automl_search.py: allowed_model_families set to [ModelFamily.LINEAR_MODEL, ModelFamily.XGBOOST, ModelFamily.RANDOM_FOREST, ModelFamily.EXTRA_TREES, ModelFamily.DECISION_TREE, ModelFamily.LIGHTGBM, ModelFamily.CATBOOST]
+08/21/2021 11:08:28 AM - INFO - logger.py: 
+*****************************
+08/21/2021 11:08:28 AM - INFO - logger.py: * Beginning pipeline search *
+08/21/2021 11:08:28 AM - INFO - logger.py: *****************************
+08/21/2021 11:08:28 AM - INFO - logger.py: 
+08/21/2021 11:08:28 AM - INFO - automl_search.py: Optimizing for Root Mean Squared Error. 
+08/21/2021 11:08:28 AM - INFO - automl_search.py: Lower score is better.
+
+08/21/2021 11:08:28 AM - INFO - automl_search.py: Using SequentialEngine to train and score pipelines.
+08/21/2021 11:08:28 AM - INFO - automl_search.py: Searching up to 1 batches for a total of 9 pipelines. 
+08/21/2021 11:08:28 AM - INFO - automl_search.py: Allowed model families: linear_model, xgboost, random_forest, extra_trees, decision_tree, lightgbm, catboost
+
+08/21/2021 11:08:31 AM - DEBUG - gen_utils.py: Could not import class ProphetRegressor in get_importable_subclasses
+08/21/2021 11:08:32 AM - DEBUG - gen_utils.py: Could not import class ProphetRegressor in get_importable_subclasses
+08/21/2021 11:08:32 AM - INFO - automl_search.py: Evaluating Baseline Pipeline: Mean Baseline Regression Pipeline
+08/21/2021 11:08:32 AM - INFO - engine_base.py: Mean Baseline Regression Pipeline:
+08/21/2021 11:08:32 AM - INFO - engine_base.py: 	Starting cross validation
+08/21/2021 11:08:32 AM - DEBUG - engine_base.py: 		Training and scoring on fold 0
+08/21/2021 11:08:32 AM - DEBUG - engine_base.py: 			Fold 0: starting training
+08/21/2021 11:08:32 AM - DEBUG - engine_base.py: 			Fold 0: finished training
+08/21/2021 11:08:32 AM - DEBUG - engine_base.py: 			Fold 0: Scoring trained pipeline
+08/21/2021 11:08:32 AM - DEBUG - engine_base.py: 			Fold 0: Root Mean Squared Error score: 1730.821
+08/21/2021 11:08:32 AM - DEBUG - engine_base.py: 		Training and scoring on fold 1
+08/21/2021 11:08:32 AM - DEBUG - engine_base.py: 			Fold 1: starting training
+08/21/2021 11:08:32 AM - DEBUG - engine_base.py: 			Fold 1: finished training
+08/21/2021 11:08:32 AM - DEBUG - engine_base.py: 			Fold 1: Scoring trained pipeline
+08/21/2021 11:08:32 AM - DEBUG - engine_base.py: 			Fold 1: Root Mean Squared Error score: 1698.187
+08/21/2021 11:08:32 AM - DEBUG - engine_base.py: 		Training and scoring on fold 2
+08/21/2021 11:08:32 AM - DEBUG - engine_base.py: 			Fold 2: starting training
+08/21/2021 11:08:32 AM - DEBUG - engine_base.py: 			Fold 2: finished training
+08/21/2021 11:08:32 AM - DEBUG - engine_base.py: 			Fold 2: Scoring trained pipeline
+08/21/2021 11:08:32 AM - DEBUG - engine_base.py: 			Fold 2: Root Mean Squared Error score: 1690.564
+08/21/2021 11:08:32 AM - INFO - engine_base.py: 	Finished cross validation - mean Root Mean Squared Error: 1706.524
+08/21/2021 11:08:32 AM - INFO - logger.py: 
+*****************************
+08/21/2021 11:08:32 AM - INFO - logger.py: * Evaluating Batch Number 1 *
+08/21/2021 11:08:32 AM - INFO - logger.py: *****************************
+08/21/2021 11:08:32 AM - INFO - logger.py: 
+08/21/2021 11:08:33 AM - INFO - engine_base.py: Linear Regressor w/ Log Transformer + Imputer + Standard Scaler:
+08/21/2021 11:08:33 AM - INFO - engine_base.py: 	Starting cross validation
+08/21/2021 11:08:33 AM - DEBUG - engine_base.py: 		Training and scoring on fold 0
+08/21/2021 11:08:33 AM - DEBUG - engine_base.py: 			Fold 0: starting training
+08/21/2021 11:08:33 AM - DEBUG - engine_base.py: 			Fold 0: finished training
+08/21/2021 11:08:33 AM - DEBUG - engine_base.py: 			Fold 0: Scoring trained pipeline
+08/21/2021 11:08:33 AM - DEBUG - engine_base.py: 			Fold 0: Root Mean Squared Error score: 1148.635
+08/21/2021 11:08:33 AM - DEBUG - engine_base.py: 		Training and scoring on fold 1
+08/21/2021 11:08:33 AM - DEBUG - engine_base.py: 			Fold 1: starting training
+08/21/2021 11:08:33 AM - DEBUG - engine_base.py: 			Fold 1: finished training
+08/21/2021 11:08:33 AM - DEBUG - engine_base.py: 			Fold 1: Scoring trained pipeline
+08/21/2021 11:08:33 AM - DEBUG - engine_base.py: 			Fold 1: Root Mean Squared Error score: 1172.434
+08/21/2021 11:08:33 AM - DEBUG - engine_base.py: 		Training and scoring on fold 2
+08/21/2021 11:08:33 AM - DEBUG - engine_base.py: 			Fold 2: starting training
+08/21/2021 11:08:33 AM - DEBUG - engine_base.py: 			Fold 2: finished training
+08/21/2021 11:08:33 AM - DEBUG - engine_base.py: 			Fold 2: Scoring trained pipeline
+08/21/2021 11:08:33 AM - DEBUG - engine_base.py: 			Fold 2: Root Mean Squared Error score: 1104.860
+08/21/2021 11:08:33 AM - INFO - engine_base.py: 	Finished cross validation - mean Root Mean Squared Error: 1141.976
+08/21/2021 11:08:35 AM - INFO - engine_base.py: Decision Tree Regressor w/ Log Transformer + Imputer:
+08/21/2021 11:08:35 AM - INFO - engine_base.py: 	Starting cross validation
+08/21/2021 11:08:35 AM - DEBUG - engine_base.py: 		Training and scoring on fold 0
+08/21/2021 11:08:35 AM - DEBUG - engine_base.py: 			Fold 0: starting training
+08/21/2021 11:08:35 AM - DEBUG - engine_base.py: 			Fold 0: finished training
+08/21/2021 11:08:35 AM - DEBUG - engine_base.py: 			Fold 0: Scoring trained pipeline
+08/21/2021 11:08:35 AM - DEBUG - engine_base.py: 			Fold 0: Root Mean Squared Error score: 1157.710
+08/21/2021 11:08:35 AM - DEBUG - engine_base.py: 		Training and scoring on fold 1
+08/21/2021 11:08:35 AM - DEBUG - engine_base.py: 			Fold 1: starting training
+08/21/2021 11:08:35 AM - DEBUG - engine_base.py: 			Fold 1: finished training
+08/21/2021 11:08:35 AM - DEBUG - engine_base.py: 			Fold 1: Scoring trained pipeline
+08/21/2021 11:08:35 AM - DEBUG - engine_base.py: 			Fold 1: Root Mean Squared Error score: 1132.664
+08/21/2021 11:08:35 AM - DEBUG - engine_base.py: 		Training and scoring on fold 2
+08/21/2021 11:08:35 AM - DEBUG - engine_base.py: 			Fold 2: starting training
+08/21/2021 11:08:35 AM - DEBUG - engine_base.py: 			Fold 2: finished training
+08/21/2021 11:08:35 AM - DEBUG - engine_base.py: 			Fold 2: Scoring trained pipeline
+08/21/2021 11:08:35 AM - DEBUG - engine_base.py: 			Fold 2: Root Mean Squared Error score: 1107.595
+08/21/2021 11:08:35 AM - INFO - engine_base.py: 	Finished cross validation - mean Root Mean Squared Error: 1132.656
+08/21/2021 11:08:37 AM - INFO - engine_base.py: Random Forest Regressor w/ Log Transformer + Imputer:
+08/21/2021 11:08:37 AM - INFO - engine_base.py: 	Starting cross validation
+08/21/2021 11:08:37 AM - DEBUG - engine_base.py: 		Training and scoring on fold 0
+08/21/2021 11:08:37 AM - DEBUG - engine_base.py: 			Fold 0: starting training
+08/21/2021 11:08:37 AM - DEBUG - engine_base.py: 			Fold 0: finished training
+08/21/2021 11:08:37 AM - DEBUG - engine_base.py: 			Fold 0: Scoring trained pipeline
+08/21/2021 11:08:37 AM - DEBUG - engine_base.py: 			Fold 0: Root Mean Squared Error score: 1140.188
+08/21/2021 11:08:37 AM - DEBUG - engine_base.py: 		Training and scoring on fold 1
+08/21/2021 11:08:37 AM - DEBUG - engine_base.py: 			Fold 1: starting training
+08/21/2021 11:08:37 AM - DEBUG - engine_base.py: 			Fold 1: finished training
+08/21/2021 11:08:37 AM - DEBUG - engine_base.py: 			Fold 1: Scoring trained pipeline
+08/21/2021 11:08:37 AM - DEBUG - engine_base.py: 			Fold 1: Root Mean Squared Error score: 1124.219
+08/21/2021 11:08:37 AM - DEBUG - engine_base.py: 		Training and scoring on fold 2
+08/21/2021 11:08:37 AM - DEBUG - engine_base.py: 			Fold 2: starting training
+08/21/2021 11:08:37 AM - DEBUG - engine_base.py: 			Fold 2: finished training
+08/21/2021 11:08:37 AM - DEBUG - engine_base.py: 			Fold 2: Scoring trained pipeline
+08/21/2021 11:08:37 AM - DEBUG - engine_base.py: 			Fold 2: Root Mean Squared Error score: 1094.331
+08/21/2021 11:08:37 AM - INFO - engine_base.py: 	Finished cross validation - mean Root Mean Squared Error: 1119.579
+08/21/2021 11:08:39 AM - INFO - engine_base.py: LightGBM Regressor w/ Log Transformer + Imputer:
+08/21/2021 11:08:39 AM - INFO - engine_base.py: 	Starting cross validation
+08/21/2021 11:08:39 AM - DEBUG - engine_base.py: 		Training and scoring on fold 0
+08/21/2021 11:08:39 AM - DEBUG - engine_base.py: 			Fold 0: starting training
+08/21/2021 11:08:39 AM - DEBUG - engine_base.py: 			Fold 0: finished training
+08/21/2021 11:08:39 AM - DEBUG - engine_base.py: 			Fold 0: Scoring trained pipeline
+08/21/2021 11:08:39 AM - DEBUG - engine_base.py: 			Fold 0: Root Mean Squared Error score: 1198.178
+08/21/2021 11:08:39 AM - DEBUG - engine_base.py: 		Training and scoring on fold 1
+08/21/2021 11:08:39 AM - DEBUG - engine_base.py: 			Fold 1: starting training
+08/21/2021 11:08:39 AM - DEBUG - engine_base.py: 			Fold 1: finished training
+08/21/2021 11:08:39 AM - DEBUG - engine_base.py: 			Fold 1: Scoring trained pipeline
+08/21/2021 11:08:39 AM - DEBUG - engine_base.py: 			Fold 1: Root Mean Squared Error score: 1174.240
+08/21/2021 11:08:39 AM - DEBUG - engine_base.py: 		Training and scoring on fold 2
+08/21/2021 11:08:39 AM - DEBUG - engine_base.py: 			Fold 2: starting training
+08/21/2021 11:08:39 AM - DEBUG - engine_base.py: 			Fold 2: finished training
+08/21/2021 11:08:39 AM - DEBUG - engine_base.py: 			Fold 2: Scoring trained pipeline
+08/21/2021 11:08:39 AM - DEBUG - engine_base.py: 			Fold 2: Root Mean Squared Error score: 1148.182
+08/21/2021 11:08:39 AM - INFO - engine_base.py: 	Finished cross validation - mean Root Mean Squared Error: 1173.533
+08/21/2021 11:08:41 AM - INFO - engine_base.py: Elastic Net Regressor w/ Log Transformer + Imputer + Standard Scaler:
+08/21/2021 11:08:41 AM - INFO - engine_base.py: 	Starting cross validation
+08/21/2021 11:08:41 AM - DEBUG - engine_base.py: 		Training and scoring on fold 0
+08/21/2021 11:08:41 AM - DEBUG - engine_base.py: 			Fold 0: starting training
+08/21/2021 11:08:41 AM - DEBUG - engine_base.py: 			Fold 0: finished training
+08/21/2021 11:08:41 AM - DEBUG - engine_base.py: 			Fold 0: Scoring trained pipeline
+08/21/2021 11:08:41 AM - DEBUG - engine_base.py: 			Fold 0: Root Mean Squared Error score: 1148.628
+08/21/2021 11:08:41 AM - DEBUG - engine_base.py: 		Training and scoring on fold 1
+08/21/2021 11:08:41 AM - DEBUG - engine_base.py: 			Fold 1: starting training
+08/21/2021 11:08:41 AM - DEBUG - engine_base.py: 			Fold 1: finished training
+08/21/2021 11:08:41 AM - DEBUG - engine_base.py: 			Fold 1: Scoring trained pipeline
+08/21/2021 11:08:41 AM - DEBUG - engine_base.py: 			Fold 1: Root Mean Squared Error score: 1172.478
+08/21/2021 11:08:41 AM - DEBUG - engine_base.py: 		Training and scoring on fold 2
+08/21/2021 11:08:41 AM - DEBUG - engine_base.py: 			Fold 2: starting training
+08/21/2021 11:08:41 AM - DEBUG - engine_base.py: 			Fold 2: finished training
+08/21/2021 11:08:41 AM - DEBUG - engine_base.py: 			Fold 2: Scoring trained pipeline
+08/21/2021 11:08:41 AM - DEBUG - engine_base.py: 			Fold 2: Root Mean Squared Error score: 1104.663
+08/21/2021 11:08:41 AM - INFO - engine_base.py: 	Finished cross validation - mean Root Mean Squared Error: 1141.923
+08/21/2021 11:08:43 AM - INFO - engine_base.py: XGBoost Regressor w/ Log Transformer + Imputer:
+08/21/2021 11:08:43 AM - INFO - engine_base.py: 	Starting cross validation
+08/21/2021 11:08:43 AM - DEBUG - engine_base.py: 		Training and scoring on fold 0
+08/21/2021 11:08:43 AM - DEBUG - engine_base.py: 			Fold 0: starting training
+08/21/2021 11:08:43 AM - DEBUG - engine_base.py: 			Fold 0: finished training
+08/21/2021 11:08:43 AM - DEBUG - engine_base.py: 			Fold 0: Scoring trained pipeline
+08/21/2021 11:08:43 AM - DEBUG - engine_base.py: 			Fold 0: Root Mean Squared Error score: 1156.059
+08/21/2021 11:08:43 AM - DEBUG - engine_base.py: 		Training and scoring on fold 1
+08/21/2021 11:08:43 AM - DEBUG - engine_base.py: 			Fold 1: starting training
+08/21/2021 11:08:43 AM - DEBUG - engine_base.py: 			Fold 1: finished training
+08/21/2021 11:08:43 AM - DEBUG - engine_base.py: 			Fold 1: Scoring trained pipeline
+08/21/2021 11:08:43 AM - DEBUG - engine_base.py: 			Fold 1: Root Mean Squared Error score: 1145.836
+08/21/2021 11:08:43 AM - DEBUG - engine_base.py: 		Training and scoring on fold 2
+08/21/2021 11:08:43 AM - DEBUG - engine_base.py: 			Fold 2: starting training
+08/21/2021 11:08:43 AM - DEBUG - engine_base.py: 			Fold 2: finished training
+08/21/2021 11:08:43 AM - DEBUG - engine_base.py: 			Fold 2: Scoring trained pipeline
+08/21/2021 11:08:43 AM - DEBUG - engine_base.py: 			Fold 2: Root Mean Squared Error score: 1103.272
+08/21/2021 11:08:43 AM - INFO - engine_base.py: 	Finished cross validation - mean Root Mean Squared Error: 1135.056
+08/21/2021 11:08:45 AM - INFO - engine_base.py: Extra Trees Regressor w/ Log Transformer + Imputer:
+08/21/2021 11:08:45 AM - INFO - engine_base.py: 	Starting cross validation
+08/21/2021 11:08:45 AM - DEBUG - engine_base.py: 		Training and scoring on fold 0
+08/21/2021 11:08:45 AM - DEBUG - engine_base.py: 			Fold 0: starting training
+08/21/2021 11:08:45 AM - DEBUG - engine_base.py: 			Fold 0: finished training
+08/21/2021 11:08:45 AM - DEBUG - engine_base.py: 			Fold 0: Scoring trained pipeline
+08/21/2021 11:08:45 AM - DEBUG - engine_base.py: 			Fold 0: Root Mean Squared Error score: 1137.199
+08/21/2021 11:08:45 AM - DEBUG - engine_base.py: 		Training and scoring on fold 1
+08/21/2021 11:08:45 AM - DEBUG - engine_base.py: 			Fold 1: starting training
+08/21/2021 11:08:45 AM - DEBUG - engine_base.py: 			Fold 1: finished training
+08/21/2021 11:08:45 AM - DEBUG - engine_base.py: 			Fold 1: Scoring trained pipeline
+08/21/2021 11:08:45 AM - DEBUG - engine_base.py: 			Fold 1: Root Mean Squared Error score: 1129.291
+08/21/2021 11:08:45 AM - DEBUG - engine_base.py: 		Training and scoring on fold 2
+08/21/2021 11:08:45 AM - DEBUG - engine_base.py: 			Fold 2: starting training
+08/21/2021 11:08:45 AM - DEBUG - engine_base.py: 			Fold 2: finished training
+08/21/2021 11:08:45 AM - DEBUG - engine_base.py: 			Fold 2: Scoring trained pipeline
+08/21/2021 11:08:45 AM - DEBUG - engine_base.py: 			Fold 2: Root Mean Squared Error score: 1096.891
+08/21/2021 11:08:45 AM - INFO - engine_base.py: 	Finished cross validation - mean Root Mean Squared Error: 1121.127
+08/21/2021 11:08:46 AM - INFO - engine_base.py: CatBoost Regressor w/ Log Transformer + Imputer:
+08/21/2021 11:08:46 AM - INFO - engine_base.py: 	Starting cross validation
+08/21/2021 11:08:46 AM - DEBUG - engine_base.py: 		Training and scoring on fold 0
+08/21/2021 11:08:46 AM - DEBUG - engine_base.py: 			Fold 0: starting training
+08/21/2021 11:08:46 AM - DEBUG - engine_base.py: 			Fold 0: finished training
+08/21/2021 11:08:46 AM - DEBUG - engine_base.py: 			Fold 0: Scoring trained pipeline
+08/21/2021 11:08:46 AM - DEBUG - engine_base.py: 			Fold 0: Root Mean Squared Error score: 1692.389
+08/21/2021 11:08:46 AM - DEBUG - engine_base.py: 		Training and scoring on fold 1
+08/21/2021 11:08:46 AM - DEBUG - engine_base.py: 			Fold 1: starting training
+08/21/2021 11:08:46 AM - DEBUG - engine_base.py: 			Fold 1: finished training
+08/21/2021 11:08:46 AM - DEBUG - engine_base.py: 			Fold 1: Scoring trained pipeline
+08/21/2021 11:08:46 AM - DEBUG - engine_base.py: 			Fold 1: Root Mean Squared Error score: 1660.363
+08/21/2021 11:08:46 AM - DEBUG - engine_base.py: 		Training and scoring on fold 2
+08/21/2021 11:08:46 AM - DEBUG - engine_base.py: 			Fold 2: starting training
+08/21/2021 11:08:46 AM - DEBUG - engine_base.py: 			Fold 2: finished training
+08/21/2021 11:08:46 AM - DEBUG - engine_base.py: 			Fold 2: Scoring trained pipeline
+08/21/2021 11:08:46 AM - DEBUG - engine_base.py: 			Fold 2: Root Mean Squared Error score: 1627.323
+08/21/2021 11:08:46 AM - INFO - engine_base.py: 	Finished cross validation - mean Root Mean Squared Error: 1660.025
+08/21/2021 11:08:47 AM - INFO - automl_search.py: 
+Search finished after 00:15            
+08/21/2021 11:08:48 AM - INFO - automl_search.py: Best pipeline: Random Forest Regressor w/ Log Transformer + Imputer
+08/21/2021 11:08:48 AM - INFO - automl_search.py: Best pipeline Root Mean Squared Error: 1119.579109
+08/21/2021 11:08:48 AM - DEBUG - gen_utils.py: Could not import class ProphetRegressor in get_importable_subclasses
+08/21/2021 11:08:48 AM - DEBUG - gen_utils.py: Could not import class ProphetRegressor in get_importable_subclasses
+08/21/2021 11:08:48 AM - DEBUG - gen_utils.py: Could not import class ProphetRegressor in get_importable_subclasses
+08/21/2021 11:08:48 AM - INFO - logger.py: 
+********************************************************
+08/21/2021 11:08:48 AM - INFO - logger.py: * Random Forest Regressor w/ Log Transformer + Imputer *
+08/21/2021 11:08:48 AM - INFO - logger.py: ********************************************************
+08/21/2021 11:08:48 AM - INFO - logger.py: 
+08/21/2021 11:08:48 AM - INFO - pipeline_base.py: Problem Type: regression
+08/21/2021 11:08:48 AM - INFO - pipeline_base.py: Model Family: Random Forest
+08/21/2021 11:08:48 AM - INFO - logger.py: 
+08/21/2021 11:08:48 AM - INFO - logger.py: Pipeline Steps
+08/21/2021 11:08:48 AM - INFO - logger.py: ==============
+08/21/2021 11:08:48 AM - INFO - component_graph.py: 1. Log Transformer
+08/21/2021 11:08:48 AM - INFO - component_graph.py: 2. Imputer
+08/21/2021 11:08:48 AM - INFO - component_base.py: 	 * categorical_impute_strategy : most_frequent
+08/21/2021 11:08:48 AM - INFO - component_base.py: 	 * numeric_impute_strategy : mean
+08/21/2021 11:08:48 AM - INFO - component_base.py: 	 * categorical_fill_value : None
+08/21/2021 11:08:48 AM - INFO - component_base.py: 	 * numeric_fill_value : None
+08/21/2021 11:08:48 AM - INFO - component_graph.py: 3. Random Forest Regressor
+08/21/2021 11:08:48 AM - INFO - component_base.py: 	 * n_estimators : 100
+08/21/2021 11:08:48 AM - INFO - component_base.py: 	 * max_depth : 6
+08/21/2021 11:08:48 AM - INFO - component_base.py: 	 * n_jobs : -1
+08/21/2021 11:08:48 AM - INFO - logger.py: 
+08/21/2021 11:08:48 AM - INFO - logger.py: Training
+08/21/2021 11:08:48 AM - INFO - logger.py: ========
+08/21/2021 11:08:48 AM - INFO - automl_search.py: Training for regression problems.
+08/21/2021 11:08:48 AM - INFO - automl_search.py: Total training time (including CV): 2.4 seconds
+08/21/2021 11:08:48 AM - INFO - logger.py: 
+08/21/2021 11:08:48 AM - INFO - logger.py: Cross Validation
+08/21/2021 11:08:48 AM - INFO - logger.py: ----------------
+08/21/2021 11:08:48 AM - INFO - automl_search.py:              Root Mean Squared Error  ExpVariance  MaxError  MedianAE         MSE     MAE    R2 # Training # Validation
+0                           1140.188        0.588  6663.757   502.765 1300027.575 785.671 0.566      5,682        2,841
+1                           1124.219        0.580  6372.073   486.311 1263867.327 771.269 0.562      5,682        2,841
+2                           1094.331        0.595  7787.435   480.250 1197560.930 748.992 0.581      5,682        2,841
+mean                        1119.579        0.588  6941.088   489.776 1253818.610 768.644 0.569          -            -
+std                           23.278        0.007   747.326    11.650   51967.161  18.480 0.010          -            -
+coef of var                    0.021        0.013     0.108     0.024       0.041   0.024 0.017          -            -

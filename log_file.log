@@ -1,0 +1,24 @@
+INFO: 2021-08-21 11:08:49,042: Start data training with random forest model
+INFO: 2021-08-21 11:08:53,564: Train RandomForestRegressor
+INFO: 2021-08-21 11:08:54,811: MAE: 293.174649675701
+							   MSE:178987.08185383695
+							   RMSE:423.06864910299953
+INFO: 2021-08-21 11:08:54,855: --------------------------------------------------
+INFO: 2021-08-21 11:08:54,860: Start Hyper-Parameter Tuning
+INFO: 2021-08-21 11:21:50,641: RandomizedSearchCV(cv=5, estimator=RandomForestRegressor(), n_jobs=1,
+                   param_distributions={'max_depth': [5, 10, 15, 20, 25, 30],
+                                        'max_features': ['auto', 'sqrt'],
+                                        'min_samples_leaf': [1, 2, 5, 10],
+                                        'min_samples_split': [2, 5, 10, 15,
+                                                              100],
+                                        'n_estimators': [100, 200, 300, 400,
+                                                         500, 600, 700, 800,
+                                                         900, 1000, 1100,
+                                                         1200]},
+                   random_state=42, scoring='neg_mean_squared_error',
+                   verbose=2)
+INFO: 2021-08-21 11:21:50,781: Best Paramteres:{'n_estimators': 300, 'min_samples_split': 100, 'min_samples_leaf': 5, 'max_features': 'auto', 'max_depth': 15}
+INFO: 2021-08-21 11:21:51,725: MAE: 704.5392387579475
+							   MSE:1014635.6953508949
+							   RMSE:1007.2912663926433
+INFO: 2021-08-21 11:21:51,739: --------------------------------------------------
