@@ -1,6 +1,7 @@
 asgiref==3.4.1
 click==8.0.1
 fastapi==0.68.0
+gunicorn
 h11==0.12.0
 joblib==1.0.1
 numpy==1.21.2
