@@ -23,6 +23,7 @@ def index():
     "Outlet_Location_Type" :  "string | The type of city in which the store is located Tier 1/Tier 2/Tier 3", 
     "Outlet_Type"  : "string | Whether the outlet is just a grocery store or some sort of supermarket Glocery Store/Supermarket Type1/Supermarket Type2/Supermarket Type3"}],
     "URL of API Call":"https://stores-sales-api.herokuapp.com/predict",
+    "Method":"POST",
     "To Test API please visit":"https://stores-sale-prediction.herokuapp.com",
      "© Copyright":"2021 Ganesh Thorat" }
 
