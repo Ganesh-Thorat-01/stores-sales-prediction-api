@@ -4,7 +4,7 @@ different stores of Big Mart according to the provided dataset.
 
 [You can reach the application here]
 https://stores-sales-api.herokuapp.com/
-[]
+<br>
 https://stores-sale-prediction.herokuapp.com
 
 
