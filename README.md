@@ -32,7 +32,7 @@ The data-set is also based on hypotheses of store level and product level. Where
  * 5. Feature Engineering
  * 6. Model Building
  * 7. Evaluting Model
- * 8. django setup
+ * 8. FastAPI and Flask setup
  * 9. Push to Github
  * 10. deploying
 
